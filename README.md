@@ -84,3 +84,12 @@ team2_BombsiteB = team2_data[(team2_data['area_name'] == 'BombsiteB')]
 team2_BombsiteB_with_2rifles_or_SMGs=team2_BombsiteB[team2_BombsiteB['inventory'].apply(game.has_rifle_and_smg) >= 2]
 ``` 
 
+
+#### 3 To address the needs of stakeholders who are not tech-savvy and enable them to request or acquire the output themselves, a web-based solution can be implemented. Here's a proposal that can be implemented in less than one week:
+1, Developing web interface that allows the coaching staff to input/upload file/ their requirements and view the filtered data and analysis results.  
+
+2, Implement the necessary backend logic to process the input parameters provided by the coaching staff and filter the data accordingly. This can include applying filters based on team, side, and the custom rectangle condition.  
+
+3, Display the filtered data in a tabular format on the web interface, allowing the coaching staff to view the relevant rows and columns of the dataset.  
+
+4, Calculate and display any analysis results required by the coaching staff, such as average timer or heatmap visualization
