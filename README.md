@@ -1,3 +1,8 @@
+# Steps to run this Python project
+git clone git@github.com:luhuanju/PythonEG.git
+Use IDE open this project and run ProcessGameState file
+
+
 # Solutions
 Procedures
 
